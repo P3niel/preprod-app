@@ -20,4 +20,5 @@ jobs:
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_SSH_KEY }}
           source: "index.php"
-          target: "/var/www/html/index.php"
+          target: "/var/www/html/"
+          overwrite: true
