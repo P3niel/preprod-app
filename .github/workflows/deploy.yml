@@ -21,3 +21,4 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           source: "index.php"
           target: "/var/www/html/"
+          overwrite: true
