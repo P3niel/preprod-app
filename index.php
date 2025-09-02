@@ -1,6 +1,6 @@
 <?php
 $host = "tek2-preprod-db.c9imqaw42h50.eu-west-3.rds.amazonaws.com";
-$user = "admin";
+$user = "kami";
 $pass = "Devops1403!";
 $db   = "testdb";
 
