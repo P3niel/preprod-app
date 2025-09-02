@@ -30,7 +30,7 @@ $ssm = new SsmClient([
 ]);
 
 $param = $ssm->getParameter([
-    'Name' => '/preprod/db_password',
+    'Name' => 'kami/preprod/db_password',
     'WithDecryption' => true
 ]);
 
