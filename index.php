@@ -11,6 +11,7 @@ if ($conn->connect_error) {
 
 $result = $conn->query("SELECT * FROM users");
 echo "hello from github actions tested";
+echo "Test OK : " . date('H:i:s');
 echo "<h1>Liste des utilisateurs :</h1>";
 while($row = $result->fetch_assoc()) {
     echo "ID: " . $row["id"]. " - Nom: " . $row["name"]. "<br>";
